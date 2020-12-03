@@ -1,0 +1,25 @@
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> <!-- pentru clasele css -->
+
+<style>
+	body{
+		margin: 0;
+		background: #FEF5E7;
+	}
+
+</style>
+
+<div class="fixed text-gray-500 text-2xl ml-10 mt-4 font-bold"><span>Scor: </span><span id='valoareScor'>0</span></div> <!-- Afisare scor -->
+
+<div class="fixed inset-0 flex items-center justify-center" id="fereastraJoc"> <!-- Cadran joc -->
+	<div class="bg-blue-200 max-w-md w-full p-6 text-center rounded-lg">	 <!-- Fereastra albastra -->
+		<h1 class="text-4xl font-bold leading-none p-8" id="literaChallenge">A</h1> <!-- Litera curenta -->
+		<h2>Ai introdus: </h2><h2 id="introdus"></h2> <!-- Text ajutator -->
+		<div>
+			<textarea class="rounded-lg text-center py-4 font-bold" autofocus id="casetaIntrare"></textarea> <!-- Camp introducere text -->
+		</div>
+	</div>
+
+</div>
+
+
+<script src="./index.js"></script> <!-- Importare cod JS -->
